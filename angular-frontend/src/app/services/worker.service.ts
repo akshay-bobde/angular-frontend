@@ -9,7 +9,7 @@ import { Worker } from '../models/worker';
 })
 export class WorkerService {
 
-  private getUrl: string = "http://localhost:8080/api/v1/workers";
+  private getUrl: string = "http://15.236.145.88:30000/api/v1/workers";
 
   constructor(private _httpClient: HttpClient) { }
 
